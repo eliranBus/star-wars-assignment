@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Starjedi";
+    src: url("./assets/fonts/Starjedi.ttf");
+ 
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.App {
+    text-align: center;
+    font-family: "Starjedi";
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+    letter-spacing: 2px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+table {
+    border: 1px solid black;
+    margin-top: 5em;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.3);
+    width: 70%;
+    background-color: white;
+}
+
+table tr, td {
+    text-align: left;
+    width: 50%;
+    padding: 1em 00.5em;
+    background-color: rgba(187, 227, 235, 0.418);
+}
+
+.part-selection {
+    margin: 4em 0 2em ;
+}
+
+.part-selection a, button {
+    font-family: "Starjedi";
+    margin: 0 1em;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8em;
+}
+
+.part-selection a:hover, button:hover {
+    background-color: rgba(235, 225, 225, 0.616);;
+    cursor: pointer;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+svg {
+    background-color: rgba(187, 227, 235, 0.418);
+    border: 1px solid black;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.3);
+    padding-left: 2.2em;
+    margin-top: 2em;
+}
+
+text {
+    font-size: 5.5em;
+}
+
+.container:hover .bar-group {
+    opacity: 0.5;
+    transition: 0.1s ease-in-out;
+    background-color: black;
+  }
+
+.light {
+    font-family: "Trebuchet MS";
+}
